@@ -324,7 +324,12 @@ input, select, textarea {
 	}
 
 	p {
-		color: rgba(255, 255, 255, 1);
+		color: rgba(255, 255, 255, 0.875);
+		margin: 0 0 1.5rem 0;
+	}
+
+	modal-body p {
+		color: rgba(0, 0, 0, 0.875);
 		margin: 0 0 1.5rem 0;
 	}
 
