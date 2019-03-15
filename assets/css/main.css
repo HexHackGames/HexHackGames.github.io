@@ -328,11 +328,6 @@ input, select, textarea {
 		margin: 0 0 1.5rem 0;
 	}
 
-	modal-body, p {
-		color: rgba(0, 0, 0, 1);
-		margin: 0 0 1.5rem 0;
-	}
-
 		body.is-ie p {
 			width: 100%;
 		}
@@ -462,6 +457,11 @@ input, select, textarea {
 		border: 0;
 		border-bottom: solid 2px rgba(255, 255, 255, 0.25);
 		margin: 1.875rem 0;
+	}
+
+	.modal-body, p {
+		color: rgba(0, 0, 0, 1);
+		margin: 0 0 1.5rem 0;
 	}
 
 	.align-left {
