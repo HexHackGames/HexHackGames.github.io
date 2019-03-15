@@ -90,6 +90,18 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+	
+		$(window).load(function () {
+		    $(".trigger_popup_fricc").click(function(){
+		       $('.hover_bkgr_fricc').show();
+		    });
+		    $('.hover_bkgr_fricc').click(function(){
+			$('.hover_bkgr_fricc').hide();
+		    });
+		    $('.popupCloseButton').click(function(){
+			$('.hover_bkgr_fricc').hide();
+		    });
+		});
 
 	// Tweaks/fixes.
 
@@ -757,15 +769,3 @@
 					});
 
 })(jQuery);
-
-$(window).load(function () {
-    $(".trigger_popup_fricc").click(function(){
-       $('.hover_bkgr_fricc').show();
-    });
-    $('.hover_bkgr_fricc').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-    $('.popupCloseButton').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-});
