@@ -459,7 +459,7 @@ input, select, textarea {
 		margin: 1.875rem 0;
 	}
 
-	.modal-body, p {
+	.modal-body p {
 		color: rgba(0, 0, 0, 1);
 		margin: 0 0 1.5rem 0;
 	}
