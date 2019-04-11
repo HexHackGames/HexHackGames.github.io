@@ -1496,6 +1496,11 @@ input, select, textarea {
 .modal-backdrop.in {
 	opacity: .7;
 }
+
+.modal-title {
+	color: rgba(255, 255, 255, 0.875)
+}
+
 .modal-backdrop {
 	background-color: none !important;
 }
