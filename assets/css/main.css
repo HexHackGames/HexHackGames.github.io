@@ -1498,7 +1498,7 @@ input, select, textarea {
 }
 
 .modal-title {
-	color: rgba(255, 255, 255, 0.875)
+	color: rgba(0, 0, 0, 0.875)
 }
 
 .modal-backdrop {
