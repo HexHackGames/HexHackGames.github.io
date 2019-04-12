@@ -1498,7 +1498,12 @@ input, select, textarea {
 }
 
 .modal-title {
-	color: rgba(0, 0, 0, 0.875)
+	color: rgba(0, 0, 0, 0.875);
+}
+
+.modal-author {
+	color: rgba(0, 0, 0, 0.875);
+	font-size: 0.6rem;
 }
 
 .modal-backdrop {
