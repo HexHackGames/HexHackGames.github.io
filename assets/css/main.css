@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.modal-dialog {
+	max-width: none;
+}
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
